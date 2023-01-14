@@ -30,9 +30,12 @@ body {
   
   /* Logo */
   .logo {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
-    padding: 1rem;
+    white-space: nowrap; /* this will prevent the text from breaking into multiple lines */
+    overflow: hidden; /* this will hide any text that doesn't fit */
+    text-overflow: ellipsis; /* this will add an ellipsis (...) if the text is too long */
   }
+  
   
   
