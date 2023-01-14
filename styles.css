@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     padding: 1rem;
   }
-  
+
   /* Navigation Bar */
  .navbar {
     display: flex;
@@ -28,7 +28,11 @@ body {
     text-decoration: none;
   }
   .navbar li a:hover {
-    background-color: #555;
+    background-color: lighten(#555, 20%);
+    color: #fff;
+  }  
+  .navbar li a:active {
+    background-color: #777;
     color: #fff;
   }
   
