@@ -12,9 +12,8 @@ body {
     justify-content: space-between;
     padding: 1rem;
   }
-
   /* Navigation Bar */
- .navbar {
+  .navbar {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -26,16 +25,11 @@ body {
   .navbar li a {
     color: #fff;
     text-decoration: none;
+    background-color: #555;
   }
-  .navbar li a:hover {
+  .navbar li a:hover{
     background-color: lighten(#555, 20%);
-    color: #fff;
-  }  
-  .navbar li a:active {
-    background-color: #777;
-    color: #fff;
   }
-  
   /* Logo */
   .logo {
     width: 50px;
@@ -43,5 +37,4 @@ body {
     background-image: url('logo.png');
     background-size: cover;
   }
-  /* ... and so on */
   
