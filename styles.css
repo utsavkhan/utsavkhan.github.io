@@ -18,7 +18,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    justify-content: flex-end; /* this align the elements to the right */
+    justify-content: flex-end;
   }
   .navbar li {
     padding: 0 1rem;
@@ -30,7 +30,7 @@ body {
   }
   .navbar li a:hover{
     background-color: lighten(#555, 20%);
-  }
+  }  
   
   /* Logo */
   .logo {
