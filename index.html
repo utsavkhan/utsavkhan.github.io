@@ -8,39 +8,38 @@
     <header>
         <div class="logo">Utsav Khan</div>
         <nav>
-          <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Get in Touch</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
+            <ul class="navbar">
+              <li><a href="#home" onclick="showTab('home')">Home</a></li>
+              <li><a href="#about" onclick="showTab('about')">About</a></li>
+              <li><a href="#experience" onclick="showTab('experience')">Experience</a></li>
+              <li><a href="#education" onclick="showTab('education')">Education</a></li>
+              <li><a href="#skills" onclick="showTab('skills')">Skills</a></li>
+              <li id="get-in-touch"><a href="#" onclick="showTab('get-in-touch')">Get in Touch</a></li>
+            </ul>
+          </nav>
+        </header>
         <main>
-            <section id="home">
-              <h2>Welcome to my profile</h2>
-              <p>Here you will find information about me, my experience, education, and skills. Feel free to explore my website and get in touch if you have any questions.</p>
-            </section>
-            <section id="about">
-              <h2>About me</h2>
-              <p>I am a highly motivated and dedicated professional with experience in the field of...</p>
-            </section>
-            <section id="experience">
-              <h2>Experience</h2>
-              <p>I have worked at several companies in various roles, developing my skills and gaining valuable experience...</p>
-            </section>
-            <section id="education">
-              <h2>Education</h2>
-              <p>I have a degree in... from... and have also completed additional courses and certifications...</p>
-            </section>
-            <section id="skills">
-              <h2>Skills</h2>
-              <p>I possess a range of skills including...</p>
-            </section>
-            <section id="get-in-touch">
+          <section id="home" class="tab-content">
+            <h2>Welcome to Utsav Khan</h2>
+            <p>Here you will find information about me, my experience, education, and skills. Feel free to explore my website and get in touch if you have any questions.</p>
+          </section>
+          <section id="about" class="tab-content">
+            <h2>About me</h2>
+            <p>I am a highly motivated and dedicated professional with experience in the field of...</p>
+          </section>
+          <section id="experience" class="tab-content">
+            <h2>Experience</h2>
+            <p>I have worked at several companies in various roles, developing my skills and gaining valuable experience...</p>
+          </section>
+          <section id="education" class="tab-content">
+            <h2>Education</h2>
+            <p>I have a degree in... from... and have also completed additional courses and certifications...</p>
+          </section>
+          <section id="skills" class="tab-content">
+            <h2>Skills</h2>
+            <p>I possess a range of skills including...</p>
+          </section>
+            <section id="get-in-touch" class="tab-content">
               <h2>Get in Touch</h2>
               <form>
                 <label for="name">Name:</label>
@@ -52,7 +51,7 @@
                 <input type="submit" value="Submit">
               </form>
             </section>
-      </main>      
+        </main>      
     <footer>
       <p>Copyright © 2021 Utsav Khan</p>
     </footer>
