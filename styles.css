@@ -12,8 +12,9 @@ body {
     justify-content: space-between;
     padding: 1rem;
   }
+  
   /* Navigation Bar */
-  .navbar {
+ .navbar {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -26,6 +27,11 @@ body {
     color: #fff;
     text-decoration: none;
   }
+  .navbar li a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
   /* Logo */
   .logo {
     width: 50px;
