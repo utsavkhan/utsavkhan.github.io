@@ -36,6 +36,36 @@ body {
     overflow: hidden; /* this will hide any text that doesn't fit */
     text-overflow: ellipsis; /* this will add an ellipsis (...) if the text is too long */
   }
+
+  /* Form Styles */
+form {
+    max-width: 600px; /* sets a maximum width for the form */
+    margin: 2rem auto; /* centers the form horizontally */
+    padding: 1rem; /* adds some padding around the form */
+    border: 1px solid #ccc; /* adds a border around the form */
+    border-radius: 10px; /* rounds the corners of the border */
+    background-color: #f9f9f9; /* sets a background color for the form */
+  }
+  
+  /* Form Label Styles */
+  label {
+    font-size: 1.2rem; /* sets a font size for the labels */
+    font-weight: bold; /* makes the labels bold */
+    margin-bottom: 0.5rem; /* adds some margin below the labels */
+    display: block; /* makes the labels display as blocks */
+  }
+  
+  /* Form Input Styles */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* makes the inputs take up the full width of their container */
+    padding: 0.5rem; /* adds some padding inside the inputs */
+    margin-bottom: 1rem; /* adds some margin below the inputs */
+    border: 1px solid #ccc; /* adds a border around the inputs */
+    border-radius: 5px; /* rounds the corners of the border */
+  }
+  
   
   
   
