@@ -41,7 +41,7 @@ header {
 }
 
 .search-form {
-  float: right;
+  display: inline-block;
 }
 
 
