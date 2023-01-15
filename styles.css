@@ -40,4 +40,10 @@ header {
   text-overflow: ellipsis; /* this will add an ellipsis (...) if the text is too long */
 }
 
+.search-form {
+  float: right;
+}
+
+
+
 
